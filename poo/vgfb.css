@@ -1,0 +1,23 @@
+
+
+.teacher-photo {
+    margin: 25px auto;
+    width: 280px;
+    max-width: 100%;
+    border: 5px solid #d8b4fe;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px #c084fc66;
+}
+
+.teacher-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    transition: transform 0.4s ease;
+}
+
+.teacher-photo img:hover {
+    transform: scale(1.05);
+}
